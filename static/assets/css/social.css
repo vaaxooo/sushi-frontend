@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+.socialf5680be6-bee7-441a-a527-e1c12601863c{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 80px;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s ease;
+}
+.right_socialf5680be6-bee7-441a-a527-e1c12601863c {
+	right: calc(5% + 8px);
+}
+.left_socialf5680be6-bee7-441a-a527-e1c12601863c {
+	left: calc(5% + 8px);
+}
+.salebot_integration_hidden{
+	display: none !important;
+}
+.social_show-f5680be6 {
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+.messengers_only-sb-img-f5680be6 {
+	display: none!important;
+}
+.messengers_only-sb-f5680be6 {
+	display: flex!important;
+}
+
+.social__link{
+	font-family: 'Nunito', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 19px;
+	color: #111111;
+	font-weight: 600;
+	padding: 6px 6px 6px 16px;
+	/*width: 100%;*/
+}
+
+/*.online_chat_messenger_title-f5680be6{*/
+/*	*/
+/*}*/
+.social__item-f5680be6 {
+	min-height: 32px;
+	min-width: 32px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: rgb(116, 116, 116);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s ease;
+}
+
+.white_background_social_items-f5680be6{
+	border-radius: 10px;
+	background: white;
+	max-width: 225px;
+	min-width: 225px;
+	width: 100%;
+	box-shadow: 0 10px 50px -12px rgba(6, 25, 56, 0.25);
+}
+
+.white_background_social_items-f5680be6 p{
+    margin: 0;
+}
+
+.white_background_social_items-f5680be6 + .white_background_social_items-f5680be6{
+	margin-top: 10px;
+}
+
+.social__icon-f5680be6 {
+	object-fit: contain;
+	max-width: 18px;
+	max-height: 18px;
+	width: 100%;
+}
+
+.social__item_vk-f5680be6 {
+	background-color: #4680C2;
+}
+.social__item_viber-f5680be6 {
+	background-color: #7F4DA0;
+}
+.social__item_tg-f5680be6 {
+	background-color: #2DA4D7;
+}
+.social__item_fb-f5680be6 {
+	background-color: #3B5998;
+}
+.social__item_whatsapp-f5680be6 {
+	background-color: #25D366;
+}
+.social__item_whatsapp-f5680be6 .social__icon-f5680be6{
+	max-width: 26px;
+	max-height: 26px;
+}
+.social__item_ok-f5680be6 {
+	background-color: #F68634;
+}
+.social__item_instagram-f5680be6 {
+	background-color: #E11B7E;
+}
+.multicolor_text{
+	color: red;
+	font-size: 30px;
+	position: fixed;
+	bottom: 85px;
+	right: 100px;
+	z-index: 9999999;
+	animation: blink 1s linear infinite;
+	text-shadow: 0 0 20px #ac00ff;
+}
+@keyframes blink {
+	50% { color: rgb(255, 0, 0); }
+	51% { color: rgb(26, 255, 0); }
+	100% { color: rgb(26, 255, 0); }
+}
+.prompt-body {
+	font-family: 'Nunito', sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	max-width: 360px;
+	width: 100%;
+	position: fixed;
+	bottom: 65px;
+	right: 5%;
+	z-index: 9999999;
+	filter: drop-shadow(0px 3px 6px rgba(45, 51, 56, 0.08));
+}
+.prompt-box{
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #E1E6F0;
+	border-radius: 6px;
+	padding: 14px 8px 10px;
+}
+.buttons-block {
+	display: flex;
+}
+.btn__link, btn__link--inner {
+	width: 100%;
+	background-color: #FFFFFF;
+	border: 1px solid #626F7F;
+	border-radius: 4px;
+	padding: 7px 4px;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: inherit;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	overflow: hidden;
+}
+.btn__inner {
+	display: flex;
+	width: 100%;
+	margin: 4px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.prompt-head {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 0 6px;
+}
+.prompt-head__avatar {
+	position: relative;
+	flex-shrink: 0;
+	width: 42px;
+	height: 42px;
+	border-radius: 42px;
+	margin-right: 4px;
+}
+.prompt-head__avatar-img {
+	position: relative;
+	flex-shrink: 0;
+	width: 42px;
+	height: 42px;
+	border-radius: 42px;
+}
+.prompt-head__info {
+	width: 70%;
+}
+.prompt-head__title {
+	font-size: 14px;
+	line-height: 100%;
+	color: #324256;
+	margin: 4px;
+}
+.prompt-head__subtitle {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 100%;
+	color: #626F7F;
+	margin-left: 4px;
+}
+.prompt-head__close {
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 9px;
+	top: 0;
+	cursor: pointer;
+}
+.prompt-message {
+	padding: 8px;
+	white-space: pre-line;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #324256;
+	line-break: anywhere;
+}
+.prompt-field{
+	position: relative;
+	display: flex;
+}
+input[type=text]:not(.browser-default).prompt-field__input{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #111111;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 6px;
+	border: 1px solid #e1e6f0;
+	padding: 15px 47px 16px 16px;
+	box-shadow: none;
+	width: 100%;
+}
+input[type=text]:not(.browser-default).prompt-field__input:focus{
+	box-shadow: none;
+	border-color: #1a53c6;
+}
+input[type=text]:not(.browser-default).prompt-field__input::placeholder{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #95A3BA;
+}
+.prompt-field__btn{
+	height: 34px;
+	min-width: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: #1a53c6;
+	position: absolute;
+	border: none;
+	outline: none;
+	right: 12px;
+	top: 6px;
+	cursor: pointer;
+}
