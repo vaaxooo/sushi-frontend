@@ -15,26 +15,23 @@
                     <div class="header__col header__col--nav col hidden-md-down">
                         <ul class="header__nav nav">
                             <li class="nav__item">
-                                <a href="https://sushistore.ru/actions/" class="nav__link ">Акции</a>
+                                <a href="/delivery" class="nav__link ">Доставка</a>
                             </li>
                             <li class="nav__item">
-                                <a href="https://sushistore.ru/delivery/" class="nav__link ">Доставка</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="https://sushistore.ru/contacts/" class="nav__link ">Контакты</a>
+                                <a href="/contacts" class="nav__link ">Контакты</a>
                             </li>
                             <li class="nav__item">
                                 <a href="https://sushistore.ru/SushiStore%202023.pdf" class="nav__link " target="_blank">Франшиза</a>
                             </li>
                             <li class="nav__item">
-                                <a href="https://sushistore.ru/cashback/" class="nav__link ">Кэшбэк</a>
+                                <a href="/cashback" class="nav__link ">Кэшбэк</a>
                             </li>
                         </ul>
                     </div>
                     <div class="header__col header__col--menu col hidden-xl-up">
                         <ul class="header__menu icon-menu row">
                             <li class="icon-menu__item  col">
-                                <a href="https://sushistore.ru/personal/cart/" class="icon-menu__link icon-cart" title="Корзина" id="cartmobile"><span>4</span></a>
+                                <a href="/cart" class="icon-menu__link icon-cart" title="Корзина" id="cartmobile"><span>{{ cart.totalCnt || 0 }}</span></a> 
                             </li>
                         </ul>
                     </div>

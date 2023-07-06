@@ -36,34 +36,28 @@
                                 <h5 class="footer__menu-title">Компания</h5>
                                 <ul class="footer__menu-list">
                                     <li class="footer__menu-item">
-                                        <a href="https://sushistore.ru/actions/" class="footer__menu-link link-inherit ">Акции</a>
+                                        <a href="delivery" class="footer__menu-link link-inherit ">Доставка</a>
                                     </li>
                                     <li class="footer__menu-item">
-                                        <a href="https://sushistore.ru/delivery/" class="footer__menu-link link-inherit ">Доставка</a>
-                                    </li>
-                                    <li class="footer__menu-item">
-                                        <a href="https://sushistore.ru/contacts/" class="footer__menu-link link-inherit ">Контакты</a>
+                                        <a href="contacts" class="footer__menu-link link-inherit ">Контакты</a>
                                     </li>
                                     <li class="footer__menu-item">
                                         <a href="https://sushistore.ru/SushiStore%202023.pdf" class="footer__menu-link link-inherit " target="_blank">Франшиза</a>
                                     </li>
                                     <li class="footer__menu-item">
-                                        <a href="https://sushistore.ru/team/" class="footer__menu-link link-inherit ">Вакансии</a>
-                                    </li>
-                                    <li class="footer__menu-item">
-                                        <a href="https://sushistore.ru/cashback/" class="footer__menu-link link-inherit ">Кэшбэк</a>
+                                        <a href="cashback" class="footer__menu-link link-inherit ">Кэшбэк</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="footer__app">
+                        <!-- <div class="footer__app">
                             <a href="https://play.google.com/store/apps/details?id=ru.sushistore.deliveryapp" class="footer__app-link">
                             <img src="/assets/images/-google-play-.svg" alt="" title="Google Play" class="footer__app-img" target="_blank">
                             </a>
                             <a href="https://apps.apple.com/us/app/%D1%81%D1%83%D1%88%D0%B8%D1%81%D1%82%D0%BE%D1%80/id1548722550?platform=iphone" class="footer__app-link" target="_blank">
                             <img src="/assets/images/-app-store.svg" alt="" title="App Store" class="footer__app-img">
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
