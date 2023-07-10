@@ -13,7 +13,6 @@
                             <p><a href="https://t.me/SushiStore_Help" class="footer__links-item link-underline" target="_blank">Служба контроля качества</a></p>
                         </div>
                         <div class="footer__contacts">
-                            <a href="tel:+74952300000" class="footer__phone link-hidden h5">+7 (495) 230-00-00</a>
                             <a href="mailto:delivery@sushistore.ru" class="footer__email link-underline">delivery@sushistore.ru</a>
                         </div>
                         <ul class="footer__social social">

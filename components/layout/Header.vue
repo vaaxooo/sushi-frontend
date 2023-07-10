@@ -9,9 +9,6 @@
                         </a>
                         <a href="#" class="header__location" data-element="modal-trigger" v-if="$cookies.get('city')">{{ $cookies.get('city') }}</a>
                     </div>
-                    <div class="header__col header__col--contacts col hidden-md-down">
-                        <a href="tel:+74952300000" class="header__phone link-hidden h5">+7 (495) 230-00-00</a>                    
-                    </div>
                     <div class="header__col header__col--nav col hidden-md-down">
                         <ul class="header__nav nav">
                             <li class="nav__item">
