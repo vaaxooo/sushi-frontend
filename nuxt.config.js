@@ -3,7 +3,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'frontend',
+    title: 'SushiStore',
     htmlAttrs: {
       lang: 'en'
     },
